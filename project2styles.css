@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.ttf'),
+       url('fonts/Poppins-Black.ttf'),
+       url('fonts/Poppins-Bold.ttf'),
+       url('fonts/Poppins-ExtraBold.ttf'),
+       url('fonts/Poppins-ExtraLight.ttf'),
+       url('fonts/Poppins-Italic.ttf'),
+       url('fonts/Poppins-Light.ttf'),
+       url('fonts/Poppins-Medium.ttf'),
+       url('fonts/Poppins-SemiBold.ttf'),
+       url('fonts/Poppins-Thin.ttf');
+}
+
+body {
+  background-color: #ECF1E9;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 36px; 
+  color: #295013;
+  font-weight: bold; 
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.image-container {
+  max-width: 100%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.luna {
+  max-width: 100%; 
+  height: auto; 
+  width: 25%;
+  margin-right: 75px; 
+}
+
+.description {
+  max-width: 50ch;
+  margin-left: 75px;
+  margin-right: 20px;
+}
+
+.context {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.context p {
+  margin-bottom: 50px;
+}
+
+.description p {
+  font-size: 22px;
+}
+
+.problem {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+.problem-picture {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.website-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 200px;
+  margin-top: 20px; 
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+.research {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+li {
+  margin-bottom: 20px; 
+}
+
+.process {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.sketches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.sketches img {
+  width: 45%;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.macbook {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -30px;
+}
+.low-fi-pic {
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+.learnings {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.link-website {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+
+.link-website a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.link-website .button {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #295013; 
+  text-decoration: none; 
+  border-radius: 10px; 
+  transition: background-color 0.3s ease; 
+  text-align: center;
+  color: white;
+  border: black;
+}
+
+.button:hover {
+  background-color: #1f3b0d; 
+}

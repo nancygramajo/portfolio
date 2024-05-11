@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.ttf'),
+       url('fonts/Poppins-Black.ttf'),
+       url('fonts/Poppins-Bold.ttf'),
+       url('fonts/Poppins-ExtraBold.ttf'),
+       url('fonts/Poppins-ExtraLight.ttf'),
+       url('fonts/Poppins-Italic.ttf'),
+       url('fonts/Poppins-Light.ttf'),
+       url('fonts/Poppins-Medium.ttf'),
+       url('fonts/Poppins-SemiBold.ttf'),
+       url('fonts/Poppins-Thin.ttf');
+}
+
+body {
+  background-color: #ECF1E9;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  padding-bottom: 100px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 36px; 
+  color: #295013;
+  font-weight: bold; 
+  text-align: center;
+  padding-top: 100px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.image-container {
+  max-width: 100%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.fonda {
+  width: 50%;
+  height: auto;
+  margin-right: 75px;
+}
+
+.description {
+  max-width: 60ch;
+  margin-left: 75px;
+}
+
+.context {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.context p {
+  margin-bottom: 50px;
+}
+
+.description p {
+  font-size: 22px;
+}
+
+.problem {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+.problem-picture {
+  width: 50%;
+  height: auto;
+}
+
+.fonda-picture {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 200px;
+  margin-top: 20px; 
+  margin-bottom: 50px;
+}
+
+.research {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+li {
+  margin-bottom: 20px; 
+}
+
+.process {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
+
+.sketches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.sketches img {
+  width: 45%;
+  margin: 10px;
+}
+
+.wire1-picture {
+  width: 100%;
+}
+
+.high-fi-picture {
+  width: 100%;
+}
+
+.learnings {
+  max-width: 75ch;
+  align-items: left;
+  margin-left: 200px;
+}
