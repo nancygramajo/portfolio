@@ -35,7 +35,7 @@ h1 {
   color: #295013;
   font-weight: bold; 
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   margin: 0;
 }
 
@@ -52,6 +52,46 @@ h3 {
 h4 {
   font-size: 28px;
   margin-bottom: 0;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: underline; 
+  color: inherit; 
+}
+
+a:hover {
+  color: gray;
+}  
+
+.name-container {
+  max-width: 800px; 
+}
+
+.header {
+  background-color: #ECF1E9; 
+  color: #295013; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+
+
+.header h5 {
+  display: inline-block; 
+  margin-left: 40px; 
+  position: relative;
+}
+
+.header h5:hover {
+  text-decoration: underline;
 }
 
 .image-container {
