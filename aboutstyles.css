@@ -16,7 +16,98 @@
 body {
   background-color: #ECF1E9;
   font-family: 'Poppins', sans-serif;
-  color: #295013;
+  color: black;
   margin: 0;
   padding: 0;
 }
+
+.name-container {
+  max-width: 800px; 
+}
+
+.header {
+  background-color: #ECF1E9; 
+  color: #295013; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+}
+
+
+.header h4 {
+  display: inline-block; 
+  margin-left: 40px; 
+  position: relative;
+}
+
+.header h4:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #295013
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: lighter;
+  color: black;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: bolder;
+  margin-bottom: 0;
+  color: #295013
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+}
+
+.profile-pic {
+  width: 30%; 
+  max-width: 300px; 
+  height: auto;
+  border-radius: 20px;
+  margin-right: 5%; 
+}
+
+.intro-description {
+  flex-grow: 1;
+  max-width: 40%; 
+  margin-right: 5%; 
+}
+
+.fun-facts, .socials {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%; 
+  margin-top: 75px;
+  margin-bottom: 100px;
+}
+
+li, p {
+  font-size: 22px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: underline; 
+  color: inherit; 
+}
+
+a:hover {
+  color: gray;
+}  
